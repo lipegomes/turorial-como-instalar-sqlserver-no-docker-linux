@@ -33,7 +33,7 @@ docker exec -it SqlServer2019 bash
 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'SuaSenha123#%'
 ```
 
-**Parar o  funcionamento do container:**
+**Parar o funcionamento do container:**
 
 ```bash
 docker stop SqlServer2019
@@ -45,8 +45,6 @@ docker stop SqlServer2019
 docker start SqlServer2019
 ```
 
-
-
 ## **2 - Conectar e acessar o banco de dados pelo DBeaver:**
 
 Para download do DBeaver acesse o link abaixo:
@@ -54,7 +52,7 @@ Para download do DBeaver acesse o link abaixo:
 https://dbeaver.io/download/
 
 - Ir em: Database > New Database Connection
-- Conforme imagem abaixo, clique no icone do SQL Server e depois clique em next( botãoo na parte inferior).
+- Conforme imagem abaixo, clique no icone do SQL Server e depois clique em next( botão na parte inferior).
 
 ![image-20210710191115740](https://github.com/lipegomes/turorial-como-instalar-sqlserver-no-docker-linux/blob/main/assets/img/image-20210710191115740.png)
 
@@ -68,7 +66,7 @@ https://dbeaver.io/download/
 
   ![image-20210710191306690](https://github.com/lipegomes/turorial-como-instalar-sqlserver-no-docker-linux/blob/main/assets/img/image-20210710191306690.png)
 
-  - Clique em Test Connection para verificar se a configuração está correta e realizar uma conecção com sucesso.
+  - Clique em Test Connection para verificar se a configuração está correta e realizar uma conexão com sucesso.
 
     ![image-20210710191316076](https://github.com/lipegomes/turorial-como-instalar-sqlserver-no-docker-linux/blob/main/assets/img/image-20210710191316076.png)
 
@@ -77,8 +75,6 @@ https://dbeaver.io/download/
 - Agora o SQL Server 2019 está configurado no DBeaver para uso no Linux conforme imagem abaixo:
 
   ![image-20210710191354036](https://github.com/lipegomes/turorial-como-instalar-sqlserver-no-docker-linux/blob/main/assets/img/image-20210710191354036.png)
-
-
 
 ## **3 - Conectar e acessar o banco de dados utilizando o Azure Data Studio**
 
@@ -89,8 +85,6 @@ https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studi
 - Clique em Create a connection
 
   ![image-20210710191413103](https://github.com/lipegomes/turorial-como-instalar-sqlserver-no-docker-linux/blob/main/assets/img/image-20210710191413103.png)
-
-  
 
 - Ao abrir a janela abaixo, utilize as configurações setadas durante a instalação do container conforme imagem abaixo e clique em Connect:
 
@@ -103,8 +97,6 @@ https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studi
   - Server group: <default>
 
   ![image-20210710191422520](https://github.com/lipegomes/turorial-como-instalar-sqlserver-no-docker-linux/blob/main/assets/img/image-20210710191422520.png)
-
-  
 
 - Após se conectar terá acesso ao banco de dados conforme imagem abaixo:
 
